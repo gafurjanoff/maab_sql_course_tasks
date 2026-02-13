@@ -1,7 +1,7 @@
 CREATE DATABASE lessontwo;
 GO
 
-USE lessontwo;
+-- USE lessontwo;
 
 
 
@@ -97,8 +97,8 @@ SELECT * FROM dbo.test_identity;
 
 
 
-DROP TABLE dbo.test_identity;
-GO
+-- DROP TABLE dbo.test_identity;
+-- GO
 
 
 SELECT * FROM dbo.test_identity;
@@ -110,7 +110,7 @@ SELECT * FROM dbo.test_identity;
 
 -- Structure is gone 
 
--- Constraints, indexes, identity, everything is gone ❌
+-- Constraints, indexes, identity, everything is gone 
 
 -- The table no longer exists
 
